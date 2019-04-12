@@ -1,10 +1,12 @@
  <!-- Header -->
+<div class="container">
+
   <header class="w3-container" style="padding-top:22px">
     <h5><b><i class="fa fa-dashboard"></i>Dashboard</b></h5>
   </header>
 
-  <div class="w3-row-padding w3-margin-bottom">
-    <div class="w3-quarter">
+  <div class="row">
+    <div class="col">
       <div class="w3-container w3-red w3-padding-16">
         <div class="w3-left"><i class="fa fa-file w3-xxxlarge"></i></div>
         <div class="w3-right">
@@ -14,7 +16,7 @@
         <h4>Name</h4>
       </div>
     </div>
-    <div class="w3-quarter">
+    <div class="col">
       <div class="w3-container w3-blue w3-padding-16">
         <div class="w3-left"><i class="fa fa-money-bill-alt w3-xxxlarge"></i></div>
         <div class="w3-right">
@@ -24,7 +26,7 @@
         <h4>Amount</h4>
       </div>
     </div>
-    <div class="w3-quarter">
+    <div class="col">
       <div class="w3-container w3-teal w3-padding-16">
         <div class="w3-left"><i class="fa fa-user w3-xxxlarge"></i></div>
         <div class="w3-right">
@@ -35,8 +37,8 @@
       </div>
     </div>
   </div>
-  
-  <div class="w3-container">
+</div>
+  <div class="container">
     <h5>More details:</h5>
 	<div class="w3-panel">
 	Issuer: <?php echo $data['issuer']; ?>
@@ -57,9 +59,9 @@
 	</div>
   </div>
   
-  <div class="w3-container">
+  <div class="container">
     <h5>Holder(s)</h5>
-    <table class="w3-table w3-striped w3-bordered w3-border w3-hoverable w3-white w3-threequarter w3-responsive">
+    <table class="w3-table w3-striped w3-bordered w3-border w3-hoverable w3-white w3-responsive">
 	  <tr>
         <th>Holder Address (#id)</th>
         <th>Amount</th>

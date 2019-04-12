@@ -1,13 +1,9 @@
       <!-- Footer -->
-    <footer class="w3-container w3-padding-16 w3-light-grey">
-		<h4>FOOTER</h4>
-		If you appreciate the quick coding effort, feel free to send some real MYNTs to: RQPxk7ngwRj5nZVhBXYc7a5LRDpDuv4zE1
-		<br>Disclaimer: Use at your own risk!
-		<br>The information displayed here comes from the mynt testnet blockchain. In no way it is related to I3CN, and as such I3CN is not responsible. Just so you know.
-		<p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a> | Theme by RealBokito & <a href="https://www.w3schools.com/w3css/w3css_templates.asp" target="_blank">w3.css</a></p>
+    <footer class="container w3-light-grey text-center">
+		<br>The information displayed here comes from the Mynt blockchain.<br>
+        Mynt Donations: MDread1Whd1dMhAgnuJj6Ke7aYbtCh6TCs<br><br>
 	</footer>
   <!-- End page content -->
-</div>
 
 <script>
 // Get the Sidebar

@@ -28,7 +28,7 @@
     
   <div class="w3-container">
     <h5>Asset(s):</h5>
-    <table class="w3-table w3-striped w3-bordered w3-border w3-hoverable w3-white w3-threequarter w3-responsive">
+    <table class="w3-table w3-striped w3-bordered w3-border w3-hoverable w3-white w3-responsive">
 	  <tr>
         <th>Asset</th>
         <th>Amount</th>

@@ -1,10 +1,10 @@
  <!-- Header -->
-  <header class="w3-container" style="padding-top:22px">
+<div class="container">
+  <header class="" style="padding-top:22px">
     <h5><b><i class="fa fa-dashboard"></i>Dashboard</b></h5>
   </header>
-
-  <div class="w3-row-padding w3-margin-bottom">
-    <div class="w3-quarter">
+  <div class="row">
+    <div class="col">
       <div class="w3-container w3-red w3-padding-16">
         <div class="w3-left"><i class="fa fa-file w3-xxxlarge"></i></div>
         <div class="w3-right">
@@ -14,7 +14,7 @@
         <h4>Assets</h4>
       </div>
     </div>
-    <div class="w3-quarter">
+    <div class="col">
       <div class="w3-container w3-blue w3-padding-16">
         <div class="w3-left"><i class="fa fa-asterisk w3-xxxlarge"></i></div>
         <div class="w3-right">
@@ -24,7 +24,7 @@
         <h4>IPFS Enabled</h4>
       </div>
     </div>
-    <div class="w3-quarter">
+    <div class="col">
       <div class="w3-container w3-teal w3-padding-16">
         <div class="w3-left"><i class="fa fa-user w3-xxxlarge"></i></div>
         <div class="w3-right">
@@ -35,15 +35,11 @@
       </div>
     </div>
   </div>
+</div>
+<div class="container-fluid">
+
   <div class="w3-panel">
-  	<div class="w3-threequarter">
-	<!--<form action="" method="post">
-  		<input class="w3-input w3-border w3-round" type="text" value="" name="q" id="q">
-	</form>-->
-	</div>
-  </div>
-  <div class="w3-panel">
-  	<div class="w3-bar">
+  	<div class="w3-bar" style="text-align: center;">
 	  <a href="./" class="w3-button  w3-tiny w3-grey">ALL</a>
 	  <?php
 	  	$alphabet = array("0..9","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z");
@@ -52,11 +48,11 @@
 			if(isset($_GET['f']) && $letter == $_GET['f'])
 			{
 	  ?>
-				<a href="./?f=<?php echo $letter;?>" class="w3-button w3-tiny w3-green"><?php echo $letter;?></a>
+				<a href="./?f=<?php echo $letter;?>" class="w3-button w3-tiny w3-blue" style="padding-left:10px;padding-right:10px"><?php echo $letter;?></a>
 	  		<?php
 			}else{
 			?>
-				<a href="./?f=<?php echo $letter;?>" class="w3-button w3-tiny"><?php echo $letter;?></a>
+				<a href="./?f=<?php echo $letter;?>" class="w3-button w3-tiny" style="padding-left:13px;padding-right:13px"><?php echo $letter;?></a>
 			<?php
 			}
 			?>
@@ -65,9 +61,11 @@
 	  ?>
 	</div>
   </div>
+</div>
+<div class="container">
   <div class="w3-panel">
     <div class="w3-row-padding">
-      <div class="w3-container w3-threequarter">
+      <div class="w3-container">
         <h5>Assets on the mynt Blockchain</h5>
         <table class="w3-table w3-striped w3-white w3-responsive">
 		<?php
@@ -92,4 +90,4 @@
       </div>
     </div>
   </div>
-  <hr>
+</div>
