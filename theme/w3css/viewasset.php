@@ -48,7 +48,7 @@
 		<?php
 		if($data['ipfs_hash']){
 		?>
-		<a href='https://gateway.ipfs.io/ipfs/<?php echo $data['ipfs_hash'];?>' target='_blank'><?php echo $data['ipfs_hash'];?></a><br>
+    <a href='https://ipfs.io/ipfs/<?php echo $data['ipfs_hash'];?>' target='_blank'><?php echo $data['ipfs_hash'];?></a><br>
 		<?php
 		}else{
 		?>

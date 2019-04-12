@@ -68,19 +68,37 @@
       <div class="w3-container">
         <h5>Assets on the mynt Blockchain</h5>
         <table class="w3-table w3-striped w3-white w3-responsive">
+      <tr>
+        <td>
+        </td>
+        <td>
+          Asset
+        </td>
+<!--         <td>
+          Amount
+        </td> -->
+        <td>
+          IPFS
+        </td>
+      </tr>
 		<?php
 			if($data['assetsList'])
 			foreach($data['assetsList'] as $asset){
 		?>
 			<tr>
-				<td><i class="fa fa-file-prescription w3-text-blue w3-large"></i></td>
-				<td><a href='./?cmd=viewasset&id=<?php echo $asset['id'];?>'><?php echo $asset['name'];?></a></td>
+				<td><i class="fas fa-file-contract w3-text-blue w3-large"></i></td>
+        <td><a href='./?cmd=viewasset&id=<?php echo $asset['id'];?>'><?php echo $asset['name'];?></a></td>
+<!-- 				<td><?php echo $data['amount'];?></td> -->
 				<td>
-					<?php if($asset['ipfs']){?>
-					<em>(IPFS !)</em><br>
-					<?php
-					}
-					?>
+        <?php if($asset['ipfs']){?>
+          <em>(IPFS !)</em><br>
+        <?php
+          }else{
+        ?>
+        <i class="fas fa-ban" style="opacity: 0.25"></i>
+        <?php
+          }
+        ?>
 				</td>
 		  </tr>
 		<?php

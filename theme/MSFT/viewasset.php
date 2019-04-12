@@ -7,7 +7,7 @@ Reissuable: <?php echo $data['reissuable'];?><br>
 <?php
 if($data['ipfs_hash']){
 ?>
-Data: <a href='https://gateway.ipfs.io/ipfs/<?php echo $data['ipfs_hash'];?>' target='_blank'><?php echo $data['ipfs_hash'];?></a><br>
+Data: <a href='https://ipfs.io/ipfs/<?php echo $data['ipfs_hash'];?>' target='_blank'><?php echo $data['ipfs_hash'];?></a><br>
 <?php
 }
 ?>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title><?php echo$data['title'];?> | mynt Assets Viewer</title>
+<title>Mynt Assets Explorer</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="./theme/w3css/css/w3.css">
@@ -186,6 +186,9 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
         <a href="https://chain.getmynt.io" target="_blank" class="nav-link"><i class="fas fa-cubes"></i> Block Explorer</a>
       </li> 
       <li class="nav-item">
+        <a href="https://paper.getmynt.io" class="nav-link"><i class="fas fa-wallet"></i> Paper Wallet</a>
+      </li>
+      <li class="nav-item">
         <a href="https://bitcointalk.org/index.php?topic=5117360.0" target="_blank" class="nav-link"><i class="fa fa-bullhorn fa-fw"></i> Forum [ANN]</a>
       </li>
       <li class="nav-item">
@@ -215,7 +218,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 <!-- Overlay effect when opening sidebar on small screens -->
 <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 <!-- !PAGE CONTENT! -->
-<div class="container-fluid" style="margin-top:43px;">
+<div class="container-fluid p-0" style="margin-top:43px;">
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
